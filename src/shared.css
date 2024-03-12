@@ -1,0 +1,13 @@
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+.current-page {
+    color:rgb(122, 69, 172);
+}
