@@ -1,0 +1,36 @@
+.introduce {
+  display: flexbox;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 45vh;
+  margin-left: 20vw;
+}
+
+h1 {
+  font-size: 400%;
+  margin-bottom: 0px;
+}
+h2 {
+  margin-top: 0px;
+  font-size: 150;
+  text-indent: 15px;
+}
+
+.summary {
+  /* font-size: 90%; */
+  text-align: center;
+  width: 70%;
+  /* border: 2px solid black; */
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  position: absolute;
+  display: flex;
+  margin-top: 50px;
+  right: 20vw;
+}

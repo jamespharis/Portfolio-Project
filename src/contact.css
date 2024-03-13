@@ -1,0 +1,41 @@
+html {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px black;
+    border-radius: 5px;
+    padding: 20vh 20vw;
+    margin: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of viewpoint height */
+    width: 100vw; /* 100% of viewpoint width */
+  }
+
+  .form-box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #dfce37;
+    padding: 20px; /* padding: top, right, bottom, left */
+    text-align: center;
+    background-color: #74753236;
+    font-size: 1.4em;
+    color: #fff1aa;
+    border-radius: 20px;
+    margin: 40px;
+  }
+
+  .message{
+    height:200px;
+  }

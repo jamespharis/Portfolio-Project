@@ -1,19 +1,41 @@
-.project-one {
-    display: flex;
-    align-items: center;
-}
-
-.project-two {
-    display: flex;
-    align-items: center;
-}
-
-.project-three {
-    display: flex;
-    align-items: center;
+.projects-container {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
 }
 
 .tech-stack {
-    display: flex;
-    align-items: center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 25px;
+  background-color: #2196f3;
+  margin-top: 3px;
+}
+
+.project {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  min-width: 350px;
+  min-height: 300px;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 35px;
+  background-color: #ffe448;
+}
+.description {
+  color: grey;
+  font-size: 18px;
+}
+
+.year {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  min-width: 80px;
 }
